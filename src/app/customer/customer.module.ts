@@ -14,6 +14,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ShopComponent } from './shop/shop.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 
 @NgModule({
@@ -28,7 +31,10 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     ProfileComponent,
     OrdersComponent,
     ShopComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    CartComponent,
+    CheckoutComponent,
+    ConfirmationComponent
   ],
   imports: [
     CommonModule,

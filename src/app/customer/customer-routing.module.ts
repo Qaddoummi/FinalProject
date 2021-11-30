@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { HomeComponent } from './home/home.component';
@@ -46,6 +49,18 @@ const routes: Routes = [
   {
     path: 'productDetails',
     component: ProductDetailsComponent
+  },
+  {
+    path: 'cart',
+    component: CartComponent
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent
+  },
+  {
+    path: 'confirmation',
+    component: ConfirmationComponent
   }
 ];
 
