@@ -1,0 +1,55 @@
+<body>
+    <app-header></app-header>
+    <main>
+        <!--? Hero Area Start-->
+<div class="slider-area ">
+    <div class="single-slider slider-height2 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="hero-cap text-center">
+                        <h2>Feedback</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br /><br /><br />
+                  <div class="container">
+                      <div class="col-12">
+                          <h2 style="padding-left:200px;" class="contact-title">Help Us Improve</h2>
+                      </div>
+                      <div style="display:flex;justify-content:center;">
+                          <div class="col-8">
+                              <form asp-action="Create" class="form-contact contact_form" method="post" id="contactForm" novalidate="novalidate">
+                                  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                  <div class="row">
+                                      <div class="col-12">
+                                          <div class="form-group">
+                                              <textarea asp-for="FeedbackBody" class="form-control" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Feedback'" placeholder=" Write Your Feedback Here" required></textarea>
+                                              <span asp-validation-for="FeedbackBody" class="text-danger"></span>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="form-group mt-3">
+                                      <input type="submit" value="Send" class="button button-contactForm boxed-btn" />
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+    </main>
+    
+    <app-footer></app-footer>
+    <!--? Search model Begin -->
+    <div class="search-model-box">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-btn">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Searching key.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+    </body>

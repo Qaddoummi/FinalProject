@@ -7,6 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { TestComponent } from './test/test.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { ProfileComponent } from './profile/profile.component';
+import { OrdersComponent } from './orders/orders.component';
+import { ShopComponent } from './shop/shop.component';
 
 
 @NgModule({
@@ -14,7 +20,13 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
     HeaderComponent,
     TestComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    FeedbackComponent,
+    ContactusComponent,
+    ProfileComponent,
+    OrdersComponent,
+    ShopComponent
   ],
   imports: [
     CommonModule,
