@@ -13,6 +13,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { ProfileComponent } from './profile/profile.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ShopComponent } from './shop/shop.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ShopComponent } from './shop/shop.component';
     ContactusComponent,
     ProfileComponent,
     OrdersComponent,
-    ShopComponent
+    ShopComponent,
+    ProductDetailsComponent
   ],
   imports: [
     CommonModule,
