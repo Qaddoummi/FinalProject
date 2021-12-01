@@ -6,12 +6,16 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
+import { HeaderComponent } from '../auth/header/header.component';
+import { FooterComponent } from '../auth/footer/footer.component';
 
 @NgModule({
   declarations: [
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HeaderComponent,
+    FooterComponent
+
   ],
   imports: [
     CommonModule,
